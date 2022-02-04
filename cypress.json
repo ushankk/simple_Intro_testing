@@ -1,0 +1,18 @@
+{
+
+    "watchForFileChanges":true,
+    "baseUrl":"https://the-internet.herokuapp.com",
+    "viewportWidth":700,
+    "defaultCommandTimeout":5000,
+    "pageLoadTimeout":40000,
+    "video":true,
+    "env":{
+            "username":"ushank"
+    }  ,
+
+    "retries":{
+
+        "runMode":2,
+        "openMode":1
+    }
+}
