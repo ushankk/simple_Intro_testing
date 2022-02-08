@@ -8,7 +8,9 @@
     "cy:viewport": "npx cypress run --spec='cypress/integration/testscript/*.*'",
      "cy:viewport": "npx cypress run --spec='cypress/integration/testscript/*.*'",
     "cy:dashboard":"cypress run --record --key c968f9ec-cfd0-40ee-9a03-9cced3ae0beb",
-    "cy:viewport1": "npx cypress run --spec='cypress/integration/testscript/viewport.spec.js'"
+    "cy:viewport1": "npx cypress run --spec='cypress/integration/testscript/viewport.spec.js'",
+    "cy:viewport2":"npx cypress run --spec='cypress/integration/testscript/*.*' --record --key c968f9ec-cfd0-40ee-9a03-9cced3ae0beb"
+
   },
   "author": "",
   "license": "ISC",
